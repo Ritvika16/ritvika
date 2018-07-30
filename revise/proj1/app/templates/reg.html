@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<title> Register now </title>
+<body>
+	{% if message %}
+	{{message}}
+{% endif %}
+<br>
+<br>
+
+ <form action="/reg/" method="post">
+	username: <input type="text" name="name">
+	<br><br>
+	password: <input type="password" name="password">
+	<br><br>
+	contact: <input type="text" name="contact">
+	<br><br>
+	user_type: <input type="text" name="user_type">
+	<br><br>
+	<input type="Submit" value="Click">
+ </form>
+
+
+</body>
+</html>
